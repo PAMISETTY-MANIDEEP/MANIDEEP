@@ -1,0 +1,54 @@
+.map {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #f8f8f8, #e0e0e0);
+    box-shadow: 4px 4px 8px #d1d1d1, -4px -4px 8px #ffffff;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  }
+  
+  .map:hover {
+    transform: translateY(-5px);
+    box-shadow: 6px 6px 12px #d1d1d1, -6px -6px 12px #ffffff;
+  }
+  
+  .map h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #333333;
+  }
+  
+  .map button {
+    padding: 10px 15px;
+    margin: 10px 5px 0 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .map button:first-of-type {
+    background-color: #e57373;
+    color: #ffffff;
+  }
+  
+  .map button:first-of-type:hover {
+    background-color: #ef9a9a;
+  }
+  
+  .map button:last-of-type {
+    background-color: #64b5f6;
+    color: #ffffff;
+  }
+  
+  .map button:last-of-type:hover {
+    background-color: #90caf9;
+  }
+  
